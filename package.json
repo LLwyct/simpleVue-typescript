@@ -1,0 +1,13 @@
+{
+  "name": "simpleVue-typescript",
+  "description": "一个vue的简单实现，包括observer、compiler、watcher、dep等主要模块",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc vue.ts --target es6 --outDir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lixuanc",
+  "license": "ISC"
+}

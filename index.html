@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+            <input type="text" v-model="number.big">
+            <button type="button" v-on:click="increment">add one</button>
+        <h3>{{number.big}}</h3>
+    </div>
+    <script type="module" src="./dist/index.js"></script>
+</body>
+</html>
